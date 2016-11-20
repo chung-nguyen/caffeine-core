@@ -1,7 +1,10 @@
-import ObjectPool from "./ui/core/utility/ObjectPool";
+import gfx from "./gfx";
 
 if (!window) {
 	window = {};
 }
 
-window.ObjectPool = ObjectPool;
+window.gfx = gfx;
+
+window.ui = {
+};

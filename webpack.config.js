@@ -21,10 +21,5 @@ module.exports = {
                 }
             }
         ]
-    },
-    resolve: {
-        alias: {
-            config: path.join(__dirname, 'source', 'config', process.env.NODE_ENV || 'development')
-        }
     }
 };
